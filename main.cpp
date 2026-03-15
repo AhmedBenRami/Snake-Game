@@ -15,6 +15,11 @@ GameState state;
 
 bool isRunning = true;
 
+// definning colors
+Color bgColor = {0x12, 0x12, 0x12, 0xff};
+Color fgColor = {0xF8, 0xF9, 0xFA, 0xff};
+Color gameoverFgColor = {0xFF, 0x5F, 0x5F, 0xff};
+
 int main()
 {
 

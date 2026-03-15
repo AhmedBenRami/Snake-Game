@@ -1,5 +1,6 @@
 <h1>Snake Game</h1>
-A simple snake game made from scratch using C++ and Raylib as main library for rendering.
+A simple snake game made from scratch using C++ and Raylib as main library for rendering.<br>
+<img src="./Screenshots/Screenshot_20260315_180146.png">
 <br><br><br>
 <strong>Releases</strong><br>
 You can find binary files for both linux and Windows OS in the release section if you dont want to compile the code, else, please keep reading

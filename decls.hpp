@@ -7,6 +7,8 @@
 #include <inttypes.h>
 #include <vector>
 
+#include <iostream>
+
 typedef struct
 {
     int8_t x;
@@ -22,6 +24,7 @@ typedef struct
 
 enum State
 {
+    STARTUP,
     PLAYING,
     PAUSED,
     GAMEOVER
@@ -51,10 +54,17 @@ extern Apple *apple;
 
 extern bool isRunning;
 
+extern Color bgColor;
+extern Color fgColor;
+extern Color gameoverFgColor;
+
 // -- Functions section
 void initialize();
 void update();
 void draw();
 void close();
+void showTitle();
+void showManual();
+void showMessage(char *msg, Color textColor);
 
 #endif
